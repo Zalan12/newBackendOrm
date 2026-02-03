@@ -1,0 +1,33 @@
+{
+  "name": "newbackendorm",
+  "version": "1.0.0",
+  "description": "New backend with ORM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev":"nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zalan12/newBackendOrm.git"
+  },
+  "author": "FZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zalan12/newBackendOrm/issues"
+  },
+  "homepage": "https://github.com/Zalan12/newBackendOrm#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.16.2",
+    "sequelize": "^6.37.7",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

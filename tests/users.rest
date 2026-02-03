@@ -1,0 +1,41 @@
+
+###Users get data from database
+
+GET http://localhost:4000/users/
+Content-Type: application/json
+
+
+
+###Users get data from database by id
+
+GET http://localhost:4000/users/18462e0f-1b85-45b8-ab82-1228a0802776
+Content-Type: application/json
+
+### register
+
+POST http://localhost:4000/users/register
+Content-Type: application/json
+
+{
+    "name":"Teszt",
+    "email":"teszt@turr.hu",
+    "password":"Jelszo123",
+    "confirm":"Jelszo123"
+}
+
+
+### updateUser
+
+PATCH  http://localhost:4000/users/c111c315-5b4a-4954-b9d1-1c4f3c001bba
+Content-Type: application/json
+
+{
+    "password":"Sk"
+}
+
+
+
+### deleteUser
+
+DELETE  http://localhost:4000/users/c111c315-5b4a-4954-b9d1-1c4f3c001bba
+Content-Type: application/json
